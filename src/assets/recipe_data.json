@@ -1,0 +1,382 @@
+[
+  {
+    "id": 0,
+    "name": "Steak",
+    "description": "A well cooked steak",
+    "texture_name": "95_steak.png",
+    "cost": 78,
+    "food_tags": [
+      "MEAT",
+      "HEARTY",
+      "FILLING",
+      "SAVORY"
+    ],
+    "required_food_tags": [
+        "MEAT",
+        "HEARTY",
+        "FILLING"
+    ],
+    "incompatible_tags": [
+      "VEGETARIAN"
+    ],
+    "required_item_id": []
+  },
+  {
+    "id": 1,
+    "name": "Apple Pie",
+    "description": "A classic dessert made with a sweet, flaky pastry crust filled with tart apples.",
+    "texture_name": "05_apple_pie.png",
+    "cost": 78,
+    "food_tags": [
+      "SWEET",
+      "FRUITY",
+      "HOME_COOKING",
+      "MILD",
+      "FILLING"
+    ],
+    "required_food_tags": [
+        "FRUITY"
+    ],
+    "incompatible_tags": [
+      "MEAT",
+      "HOT"
+    ],
+    "required_item_id": [
+      1, 2
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Handmade Burger",
+    "description": "A simple yet hearty homemade meal.",
+    "texture_name": "15_burger.png",
+    "cost": 78,
+    "food_tags": [
+      "MEAT",
+      "FILLING",
+      "HOME_COOKING",
+      "GREASY",
+      "FILLING",
+      "HOT",
+      "HEARTY"
+    ],
+    "required_food_tags": [
+      "MEAT",
+      "HEARTY",
+      "FILLING"
+    ],
+    "incompatible_tags": [
+    ],
+    "required_item_id": [
+      0, 4, 6
+    ]
+  },
+  {
+    "id": 3,
+    "name": "A stack of pancakes",
+    "description": "A sugary breakfast to start the day.",
+    "texture_name": "79_pancakes.png",
+    "cost": 78,
+    "food_tags": [
+      "SWEET",
+      "FILLING",
+      "FRUITY",
+      "FILLING",
+      "PREMIUM"
+    ],
+    "required_food_tags": [
+      "SWEET"
+    ],
+    "incompatible_tags": [
+      "MEAT"
+    ],
+    "required_item_id": [
+      2, 5
+    ]
+  },
+  {
+    "id": 4,
+    "name": "Bacon & Eggs",
+    "description": "A classic greasy breakfast dish made with strips of bacon and eggs fried or scrambled.",
+    "texture_name": "baconandeggs.png",
+    "cost": 78,
+    "food_tags": [
+      "MEAT",
+      "FRIED",
+      "FILLING",
+      "PREMIUM",
+      "GREASY",
+      "SALTY",
+      "HOT",
+      "LOW_CARB"
+    ],
+    "required_food_tags": [
+      "MEAT",
+      "FRIED"
+    ],
+    "incompatible_tags": [
+      "VEGETARIAN"
+    ],
+    "required_item_id": [
+      6, 7
+    ]
+  },
+  {
+    "id": 5,
+    "name": "Omelette",
+    "description": "Fluffy eggs made by whisking together with milk.",
+    "texture_name": "73_omlet.png",
+    "cost": 78,
+    "food_tags": [
+      "FRIED",
+      "FILLING",
+      "GREASY",
+      "HOT",
+      "LOW_CARB"
+    ],
+    "required_food_tags": [
+      "FRIED"
+    ],
+    "incompatible_tags": [
+      "SMALL_PORTION"
+    ],
+    "required_item_id": [
+      7, 8
+    ]
+  },
+  {
+    "id": 6,
+    "name": "Pizza",
+    "description": "Pizza is a popular savory dish made of a round, flattened dough base that is topped cheese various toppings.",
+    "texture_name": "81_pizza.png",
+    "cost": 78,
+    "food_tags": [
+      "MEAT",
+      "FILLING",
+      "PREMIUM",
+      "GREASY",
+      "HOT",
+      "SAVORY",
+      "HEARTY"
+    ],
+    "required_food_tags": [
+      "MEAT"
+    ],
+    "incompatible_tags": [
+    ],
+    "required_item_id": [
+      0,2,9
+    ]
+  },
+  {
+    "id": 7,
+    "name": "Sushi",
+    "description": "Bite sized snack with various fishes ontop of rice.",
+    "texture_name": "97_sushi.png",
+    "cost": 78,
+    "food_tags": [
+      "MEAT",
+      "PREMIUM",
+      "GREASY",
+      "COLD",
+      "SEA_DELICACY",
+      "AQUATIC",
+      "SMALL_PORTION"
+    ],
+    "required_food_tags": [
+      "AQUATIC"
+    ],
+    "incompatible_tags": [
+      "VEGETARIAN",
+      "FILLING"
+    ],
+    "required_item_id": [
+      3,10
+    ]
+  },
+  {
+    "id": 8,
+    "name": "Hot Dog with bun",
+    "description": "Sausage between sliced buns, accompanied with condiments",
+    "texture_name": "55_hotdog_sauce.png",
+    "cost": 78,
+    "food_tags": [
+      "MEAT",
+      "GREASY",
+      "SAVORY",
+      "HOT"
+    ],
+    "required_food_tags": [
+      "MEAT"
+    ],
+    "incompatible_tags": [
+    ],
+    "required_item_id": [
+      0,4
+    ]
+  },
+  {
+    "id": 9,
+    "name": "Healthy Salad",
+    "description": "Medicinal salad made with herbs that greatly boosts vitality.",
+    "texture_name": "salad.png",
+    "cost": 78,
+    "food_tags": [
+      "VEGETARIAN",
+      "HOME_COOKING",
+      "MILD",
+      "COLD",
+      "LOW_CARB",
+      "GLUTEN_FREE"
+    ],
+    "required_food_tags": [
+      "VEGETARIAN",
+      "LOW_CARB",
+      "GLUTEN_FREE"
+    ],
+    "incompatible_tags": [
+      "MEAT"
+    ],
+    "required_item_id": [
+      11
+    ]
+  },
+  {
+    "id": 10,
+    "name": "Meat Dumpling",
+    "description": "Handcrafted meal wrapping meat in thin slices of dough.",
+    "texture_name": "36_dumplings.png",
+    "cost": 78,
+    "food_tags": [
+      "MEAT",
+      "HOME_COOKING",
+      "GREASY",
+      "HOT",
+      "SMALL_PORTION",
+      "FRIED"
+    ],
+    "required_food_tags": [
+      "MEAT",
+      "HOT"
+    ],
+    "incompatible_tags": [
+      "VEGETARIAN"
+    ],
+    "required_item_id": [
+      0,2
+    ]
+  },
+  {
+    "id": 11,
+    "name": "Vegetarian Dumpling",
+    "description": "Handcrafted meal wrapping vegetables in thin slices of dough. Healthier option compared to meat.",
+    "texture_name": "36_dumplings.png",
+    "cost": 78,
+    "food_tags": [
+      "VEGETARIAN",
+      "HOME_COOKING",
+      "GREASY",
+      "HOT",
+      "SMALL_PORTION",
+      "FRIED"
+    ],
+    "required_food_tags": [
+      "VEGETARIAN",
+      "HOT",
+      "SMALL_PORTION"
+    ],
+    "incompatible_tags": [
+      "MEAT",
+      "GREASY",
+      "SAVORY"
+    ],
+    "required_item_id": [
+      0,11
+    ]
+  },
+  {
+    "id": 12,
+    "name": "Fish and chips",
+    "description": "Deep fried fish and potato crisps accompanied with tartar sauce.",
+    "texture_name": "fishandchip.png",
+    "cost": 78,
+    "food_tags": [
+      "MEAT",
+      "HOME_COOKING",
+      "GREASY",
+      "HOT",
+      "SMALL_PORTION",
+      "FRIED",
+      "SEA_DELICACY",
+      "AQUATIC"
+    ],
+    "required_food_tags": [
+      "MEAT",
+      "SEA_DELICACY",
+      "AQUATIC",
+      "GREASY"
+    ],
+    "incompatible_tags": [
+      "VEGETARIAN",
+      "LOW_CARB",
+      "GLUTEN_FREE"
+    ],
+    "required_item_id": [
+      3,12
+    ]
+  },
+  {
+    "id": 13,
+    "name": "Fried Meat ball",
+    "description": "Homemade deep fried meat ball wrapped in dough",
+    "texture_name": "69_meatball.png",
+    "cost": 78,
+    "food_tags": [
+      "MEAT",
+      "HOME_COOKING",
+      "GREASY",
+      "HOT",
+      "SMALL_PORTION",
+      "FRIED"
+    ],
+    "required_food_tags": [
+      "MEAT",
+      "GREASY",
+      "FRIED"
+    ],
+    "incompatible_tags": [
+      "VEGETARIAN",
+      "LOW_CARB",
+      "GLUTEN_FREE"
+    ],
+    "required_item_id": [
+      0,2
+    ]
+  },
+  {
+    "id": 14,
+    "name": "Three in one sandwich",
+    "description": "Sandwich that encompasses all nutrional needs you require",
+    "texture_name": "92_sandwich.png",
+    "cost": 78,
+    "food_tags": [
+      "MEAT",
+      "HOME_COOKING",
+      "MILD",
+      "FILLING"
+    ],
+    "required_food_tags": [
+      "MEAT",
+      "HOME_COOKING",
+      "FILLING"
+    ],
+    "incompatible_tags": [
+      "LOW_CARB",
+      "GLUTEN_FREE"
+    ],
+    "required_item_id": [
+      0,4,11
+    ]
+  }
+  
+]

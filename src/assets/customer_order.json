@@ -1,0 +1,32 @@
+[
+  {
+    "description": "The customer is craving for something sweet and healthy.",
+    "tags_task": [
+      "SWEET",
+      "HEARTY"
+    ],
+    "info": "Did you know that hearty meals improve heart health and growth?"
+  },
+  {
+    "description": "The customer wants a healthy homemade meal!",
+    "tags_task": [
+      "HOME_COOKING",
+      "HEALTHY"
+    ],
+    "info": "Did you know that homemade meals tend to be healthy?"
+  },
+  {
+    "description": "The customer want a organic dish!",
+    "tags_task": [
+      "ORGANIC"
+    ],
+    "info": "Did you know that organic dish is healthier than processed food?"
+  },
+  {
+    "description": "The customer doesn't have a big appetite today...",
+    "tags_task": [
+      "SMALL_PORTION"
+    ],
+    "info": "Did you know that small portion dishes tend to be healthy diet snacks?"
+  }
+]

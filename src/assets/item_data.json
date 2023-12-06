@@ -1,0 +1,201 @@
+[
+  {
+    "id": 0,
+    "name": "Premium Market Meat",
+    "description": "Premium meat sourced from the market. The animal was fed with feed containing genetically modified ingredients.",
+    "texture_name": "Item_Delicacy.png",
+    "cost": 52,
+    "food_tags": [
+        "MEAT",
+        "PREMIUM",
+        "HEARTY",
+        "FILLING",
+        "KETO",
+        "PALEO"
+    ],
+    "deny_food_tags": [
+      "VEGETARIAN",
+      "NON_GMO"
+    ]
+  },
+  {
+    "id": 1,
+    "name": "Apple",
+    "description": "Freshly picked apple from the wild.",
+    "texture_name": "Apple.png",
+    "cost": 2,
+    "food_tags": [
+        "FRUITY",
+        "VEGETARIAN",
+        "LOW_CALORIE",
+        "HEALTHY",
+        "SWEET",
+        "ORGANIC"
+    ],
+    "deny_food_tags": []
+  },
+  {
+    "id": 2,
+    "name": "Bag of Flour",
+    "description": "A big bag of flour. Consumes on use despite being such a large bag.",
+    "texture_name": "Item_Never-Ending_Flour.png",
+    "cost": 5,
+    "food_tags": [],
+    "deny_food_tags": []
+  },
+  {
+    "id": 3,
+    "name": "Fish",
+    "description": "Fish caught from the wild",
+    "texture_name": "Fish.png",
+    "cost": 20,
+    "food_tags": [
+      "AQUATIC",
+      "MEAT",
+      "NON_GMO"
+    ],
+    "deny_food_tags": [
+      "VEGETARIAN"
+    ]
+  },
+  {
+    "id": 4,
+    "name": "Bread",
+    "description": "Baked bread made with flour.",
+    "texture_name": "11_bun.png",
+    "cost": 10,
+    "food_tags": [
+      "VEGETARIAN",
+      "MILD",
+      "FILLING",
+      "CHEAP"
+    ],
+    "deny_food_tags": [
+      "LOW_CARB",
+      "GLUTEN_FREE"
+    ]
+  },
+  {
+    "id": 5,
+    "name": "Honey",
+    "description": "Honey extracted from bees in the wild.",
+    "texture_name": "Honey.png",
+    "cost": 4,
+    "food_tags": [
+      "VEGETARIAN",
+      "SWEET",
+      "PREMIUM",
+      "NON_GMO"
+    ],
+    "deny_food_tags": [
+      "LOW_CARB",
+      "GLUTEN_FREE"
+    ]
+  },
+  {
+    "id": 6,
+    "name": "Bacon",
+    "description": "Stripped bacon strips from domesticated pigs",
+    "texture_name": "Bacon.png",
+    "cost": 10,
+    "food_tags": [
+      "MEAT",
+      "PREMIUM",
+      "NON_GMO",
+      "FRIED",
+      "GREASY"
+    ],
+    "deny_food_tags": [
+      "VEGETARIAN"
+    ]
+  },
+  {
+    "id": 7,
+    "name": "Eggs",
+    "description": "Eggs from chickens in the wild.",
+    "texture_name": "Eggs.png",
+    "cost": 3,
+    "food_tags": [
+      "PREMIUM",
+      "NON_GMO"
+    ],
+    "deny_food_tags": [
+      "VEGETARIAN",
+      "SMALL_PORTION"
+    ]
+  },
+  {
+    "id": 8,
+    "name": "Milk",
+    "description": "Milk, rich in calcium and good for your bones",
+    "texture_name": "Item_Wolly_Milk.png",
+    "cost": 6,
+    "food_tags": [
+      "PREMIUM",
+      "NON_GMO"
+    ],
+    "deny_food_tags": [
+      "VEGETARIAN"
+    ]
+  },
+  {
+    "id": 9,
+    "name": "Cheese",
+    "description": "Made by curdling milk, rich in calcium similar to milk.",
+    "texture_name": "Cheese.png",
+    "cost": 7,
+    "food_tags": [
+      "PREMIUM",
+      "NON_GMO"
+    ],
+    "deny_food_tags": [
+      "VEGETARIAN"
+    ]
+  },
+  {
+    "id": 10,
+    "name": "Rice",
+    "description": "Staple product providing carbohydrates",
+    "texture_name": "Rice.png",
+    "cost": 10,
+    "food_tags": [
+      "VEGETARIAN",
+      "NON_GMO",
+      "MILD",
+      "FILLING"
+    ],
+    "deny_food_tags": [
+    ]
+  },
+  {
+    "id": 11,
+    "name": "Medicinal Herb",
+    "description": "Medicinal herb harvested from the wild that greatly boosts health upon consumption.",
+    "texture_name": "Item_Medicinal_Herb.png",
+    "cost": 10,
+    "food_tags": [
+      "VEGETARIAN",
+      "NON_GMO",
+      "MILD"
+    ],
+    "deny_food_tags": [
+    ]
+  },
+  {
+    "id": 12,
+    "name": "Onion",
+    "description": "An Onion, makes you cry.",
+    "texture_name": "Onion.png",
+    "cost": 10,
+    "food_tags": [
+      "VEGETARIAN",
+      "NON_GMO",
+      "MILD",
+      "HOT"
+    ],
+    "deny_food_tags": [
+      "COLD"
+    ]
+  }
+  
+]
